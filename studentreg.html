@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>student registration form</title>
+        <style>
+            fieldset{
+                width:50%;
+                background: linear-gradient(90deg,skyblue,pink);
+                color:black;
+                border:3px solid black;
+                border-style: dashed;
+                margin:auto; 
+                   
+             }
+             h2{
+                text-align: center;
+                color: blue;
+             }
+           
+        </style>
+    </head>
+    <body>
+        <h2>Student Registration Form Using Table In HTML</h2>
+        <fieldset>
+            <table>
+                <!--FIRST NAME-->
+                <tr>
+                    <td>
+                        First name
+                    </td>
+                    <td>
+                        <input type=" text" name="uname" placeholder=" ">
+                    </td>
+                    <td>
+                        <span>
+                            (Max 50 Characters  Allowed)
+                        </span>
+                    </td>
+                </tr>
+                
+
+                <!--LAST NAME-->
+                <tr>
+                    <td>
+                        Last name
+                    </td>
+                    <td>
+                        <input type="text" name="uname" placeholder=" ">
+                    </td>
+                    <td>
+                        <span>
+                            (Max 50 Characters  Allowed)
+                        </span>
+                    </td>
+                </tr>
+
+                <!--EMAIL ID-->
+                <tr>
+                    <td>
+                    Email ID
+                    </td>
+                    <td>
+                        <input type="mail" name="id" placeholder=" ">
+                    </td>
+                    <td>
+                    
+                    </td>
+                </tr>
+
+                <!--MOBILE NUMBER-->
+                <tr>
+                    <td>
+                        Mobile number
+                    </td>
+                    <td>
+                        <input type="number" name="Mnum" placeholder=" ">
+                    </td>
+                    <td>
+                        <span>
+                            (10 Digits Allowed)
+                        </span>
+                    </td>
+                </tr>
+
+
+                <!--GENDER-->
+                <tr>
+                    <td>
+                        Gender
+                    </td>
+                
+                    <td>
+                        <input type="radio" name="gen" placeholder=" Male ">Male
+                        <input type="radio" name="gen" placeholder=" female ">Female
+                    </td>
+                </tr>
+
+
+                <!--DATE OF BIRTH-->
+                <tr>
+                    <td>
+                        Date of Birth(DOB)
+                    </td>
+                    <td>
+                        
+                            <select>
+                            <option value="day">day</option>
+                            </select>
+                            <select>
+                            <option value="month">month</option>
+                            </select>
+                            <select>
+                            <option value="year">year</option>
+                        </select>
+                    </td>
+                
+                </tr>
+
+                <!--Address-->
+                <tr>
+                    <td>
+                        Address
+                    </td>
+                    <td>
+                    <textarea cols="30" rows="5" name="uaddress" ></textarea>
+                    </td>
+                    <td></td>
+                </tr>
+
+
+                <!--CITY-->
+                <tr>
+                    <td>
+                        City
+                    </td>
+                    <td>
+                        <input type="name" name="cname" placeholder=" ">
+                        
+                    </td>
+                    <td>
+                        <span>(Max 50 Characters Allowed)</span>
+                    </td>
+                
+                </tr>
+
+
+                <!--PIN CODE-->
+                <tr>
+                    <td>
+                    Pin code
+                    </td>
+                    <td>
+                        <input type="number" name="pcode" placeholder=" ">
+                        
+                    </td>
+                    <td>
+                        <span>(Max 6 numbers Allowed)</span>
+                    </td>
+                
+                </tr>
+
+
+
+
+                <!--STATE-->
+                <tr>
+                    <td>
+                    State
+                    </td>
+                    <td>
+                        <input type="name" name="sname" placeholder=" ">
+                        
+                    </td>
+                    <td>
+                        <span>(Max 50 Characters Allowed)</span>
+                    </td>
+                
+                </tr>
+
+
+                 <!--COUNTRY-->
+                <tr>
+                    <td>
+                    Country
+                    </td>
+                    <td>
+                        <input type="name" name="cname" placeholder=" ">
+                        
+                    </td>
+                </tr>
+
+
+                <!--HOBBIES-->
+                <tr>
+                <td>
+                    Hobbies
+                </td>
+                <td>
+                    <input type="checkbox" name="hob" value="Drawing">Drawing
+                    <input type="checkbox" name="hob" value="Singing">Singing
+                    <input type="checkbox" name="hob" value="Dancing">Dancing
+                    <input type="checkbox" name="hob" value="Sketching">Sketching
+                    </td>
+            </tr>
+            <td></td>
+            
+             <td>
+                <input type="checkbox" name="hob" value="others">others
+                <input type=" name" name="hob" placeholder="Ex.Teaching">
+             </td>
+                <td>
+                    <span>(Max 50 Characters Alllowed)</span>
+                </td>
+                </tr>
+
+
+                <!--QUALIFICATION-->
+                <TR >
+                    <td>
+                        Qualification
+                    </td>
+                    <td>
+                        <input type="checkbox"  name="Qua" value="High School(10th)" >High School(10th)
+                        </td>
+                        <tr>
+                            <td></td>
+                        <td>
+                        <input type="checkbox"  name="Qua" value="Higher School(12th)" >Higher School(12th)
+                        </td>
+                        </tr>
+                        <td></td>
+                        <tr>
+                            <td></td>
+                        <td>
+                        <input type="checkbox"  name="Qua" value="gra" >Graduation(Bachelors)
+                        </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        <td>
+                        <input type="checkbox"  name="Qua" value="gra" > Post Graduation(Masters)
+                        </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        <td>
+                        <input type="checkbox" name ="Qua" value="gra" >Phd
+                    </td>
+                    </tr>
+                    
+            
+                    <!--COUSES APPLIED-->
+                    <tr>
+                        <TD>
+                        Courses Applied For
+                        </TD>
+
+                    </tr>
+                    <tr>
+                        <TD></TD>
+                        <td>
+                            <input type="checkbox" value="BCA">BCA(Bachelors of computer Applications)
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="checkbox" value="B.COM">B.COM(Bachelors of Commerce)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="checkbox" value="B.SC">B.SC(Bachelors of Science)
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="checkbox" value="BA">BA(Bachelors of Arts)
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="checkbox"value="MCA">MCA(Master Of Computer Applications)
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="checkbox" value="M.COM">M.COM(Master Of Commerce)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="checkbox" value="M.SC">M.SC(Master of Science )
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            
+                        </td>
+                        <td>
+                            <input type="checkbox" value="MA">MA(Master Of Arts)
+                        </td>
+                    </tr>
+                    <tr>
+                        
+                        <td></td>
+                        <td>
+                            <input type="submit" value="Submit">
+                            <input type="Reset" value="Reset">
+                        </td>
+                    </tr>
+
+
+
+
+            </table>
+        </fieldset>
+    </body>
+</html>
